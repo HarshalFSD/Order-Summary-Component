@@ -1,0 +1,114 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     border: 0px;
+}
+body  {
+     background-image: url(images/pattern-background-desktop.svg);
+     background-repeat: no-repeat;
+     font-family: 'Red Hat Display', sans-serif;
+}
+.menu {
+     text-align: center;
+     margin: 5% auto;
+     /* margin-left: auto;
+     margin-right: auto; */
+     width: auto;
+     max-width: 450px;
+     height: 100%;
+     /* border: 2px solid red; */
+     border-radius: 5%;
+     background-color: #E8F6EF;
+}
+
+/* IMAGE SECTION */
+
+.container-image img{
+     border-radius: 20px;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+}
+
+/* TEXT-SECTION */
+
+.container-text {
+     padding: 10%;
+}
+
+/* HEADING */
+h1 {
+     padding: 5%;
+}
+
+.header p {
+     padding-bottom: 5%;
+     line-height: 1.5;
+     color:#808080;
+}
+
+/* CONTAINER PLAN */
+
+.container-plan {
+     display: flex;
+     align-items: center;
+     background-color: #e1f5eb;
+     padding: 5%;
+     margin: 5% 0px;
+}
+.plan {
+     margin-left: 5%;
+     line-height: 1.5;
+}
+.plan-text {
+     font-weight: bold;
+}
+
+.container-plan a{
+     margin-left: auto;
+     padding-right: 5%;
+}
+.plan-price {
+     font-size: 15px;
+     color: #808080;
+}
+
+/* BUTTON SECTION */
+.btn1 {
+     
+     border-radius: 10px;
+     padding: 10px;
+     background-color: #09009B;
+     color: #fff;
+     width: 100%;
+     margin: 1rem auto;
+}
+
+.btn-pay {
+     width: 100%;
+     /* height: auto; */
+     padding:  2% 0px 2% 0px;
+     margin: 14px auto;
+     background-color: #09009B;
+     border-radius: 10px;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-pay1 {
+     text-decoration: none;
+     color:#fff;
+}
+.btn-pay2 {
+     color: rgb(49, 49, 49);
+     text-decoration: none;
+     font-weight: 600;
+}
+
+@media only screen and (max-width: 375px) {
+     body {
+          width: 100%;
+          height: auto;
+     }
+     img {
+          width: 100%;
+          height: auto;
+     }
+}
