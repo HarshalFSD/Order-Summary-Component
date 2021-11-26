@@ -34,6 +34,9 @@ body  {
 .container-text {
      padding: 10%;
 }
+.container-text p {
+     color: dimgrey;
+}
 
 /* HEADING */
 h1 {
@@ -97,7 +100,7 @@ h1 {
      color:#fff;
 }
 .btn-pay2 {
-     color: rgb(49, 49, 49);
+     color: dimgrey;
      text-decoration: none;
      font-weight: 600;
 }
