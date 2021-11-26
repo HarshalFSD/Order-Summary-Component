@@ -10,7 +10,7 @@ body  {
 }
 .card {
      text-align: center;
-     margin: 5% auto;
+     margin: 8% auto 5% auto;
      /* margin-left: auto;
      margin-right: auto; */
      width: auto;
@@ -37,7 +37,7 @@ body  {
 
 /* HEADING */
 h1 {
-     padding: 5%;
+    padding: 2% 5% 5%;
 }
 
 .header p {
